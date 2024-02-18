@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>TARIK BEN MOHAMED</title>
+<link href="style.body.css" rel="stylesheet" "type/css" >
+
+</head>
+<body>
+<br>
+
+<h3>Welcome to Tarik Ben Mohamed website</h3>
+<p><blockquote>Here you will find information about TARIK Ben Mohamed
+  and his work. You will find a <a href="contactform.html"TARGET="_blank">contact form</a>so you can get in touch with Tarik.<br>
+  Tarek is available to work with you, your company's or community, 
+  as a logistics coordinator ,english teacher , commercial agent  or manager. 
+  On each page of this site, you will find details about Tarek .
+  If you would like to explore possibilities for scheduling him, 
+  use the Contact Form  at this website or use his personal <i><a href="https://gmail.com/benmohamedtarik@gmail.com"target="_blank">email</a></i>.
+  Also you can visit his shop online on<a href="http://www.surrif.com/" target="_blank"> surrif.com.</a></blockquote>
+  </P>
+<br>
+
+<!--button drpdow-->
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">MORE</button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="freelance.html">Freelance</a>
+    <a href="about.html">About</a>
+    <a href="contactform.html">Contact</a>
+  </div>
+</div>
+
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+
+
+<select name="liste" size=1>
+<option selected>ABOUT</option>
+<option selected>FREELANCE</option>
+<option>RESUME</option>
+<option selected>C.V: En Français</option>
+<option>CONTACT</option>
+<option> HOME</option>
+</select>
+<a href="tarekbenmohamed.en.pdf" download="Tarek Ben Mohamed"> <button class="button">Download C.V</button></a>
+<pre>
+                                                                                               <a href="resume.html" class="next"align=right>Next &raquo;</a>  </pre>  
+                                                                             
+</body>
+</html>
